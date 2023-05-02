@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: black;
+}
+
+p {
+  font-family: "Cinzel", serif;
+}
+
+h1 {
+  font-family: "Cinzel", serif;
+  font-size: 20px;
+}
+
+h2 {
+  font-family: "Cinzel", serif;
+}
+
+h3 {
+  font-family: "Cinzel", serif;
+}
+
+h4 {
+  font-family: "Cinzel", serif;
+}
+
+a {
+  font-family: "Cinzel", serif;
+}
+
+.menu a {
+  color: rgb(241, 241, 238);
+}
+
+body {
+  font-family: "Cinzel", serif;
+}
+
+.gallery {
+  height: 200px;
+  width: 150px;
+}
+
+/*# sourceMappingURL=style.css.map */
