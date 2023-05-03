@@ -44,8 +44,17 @@ main {
   padding-top: 1em;
 }
 
+.menu{
+  background-color: rgb(12, 12, 12);
+}
+
 .menu a {
   color: rgb(241, 241, 238);
+}
+
+.container-logo{
+  width: 100px;
+  height: 100px;
 }
 
 body {
@@ -57,4 +66,19 @@ body {
   background-color: rgb(32, 32, 32);
 }
 
-/*# sourceMappingURL=style.css.map */
+footer{
+  background-color: rgb(12, 12, 12);
+}
+
+footer h4{
+  font-size: 15px;
+}
+
+footer a{
+  font-size: 12px;
+}
+
+footer li{
+  font-size: 12px;
+  color: rgb(230, 228, 228);
+}
