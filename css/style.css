@@ -4,33 +4,44 @@
   box-sizing: border-box;
 }
 
-body{
-  background-color: black;
-}
-
 p {
   font-family: "Cinzel", serif;
+  color: rgb(230, 228, 228);
 }
 
 h1 {
   font-family: "Cinzel", serif;
   font-size: 20px;
+  color: rgb(230, 228, 228);
 }
 
 h2 {
   font-family: "Cinzel", serif;
+  color: rgb(230, 228, 228);
 }
 
 h3 {
   font-family: "Cinzel", serif;
+  color: rgb(230, 228, 228);
 }
 
 h4 {
   font-family: "Cinzel", serif;
+  color: rgb(230, 228, 228);
+}
+
+h5 {
+  font-family: "Cinzel", serif;
+  color: rgb(230, 228, 228);
 }
 
 a {
   font-family: "Cinzel", serif;
+  color: rgb(230, 228, 228);
+}
+
+main {
+  padding-top: 1em;
 }
 
 .menu a {
@@ -39,11 +50,11 @@ a {
 
 body {
   font-family: "Cinzel", serif;
+  background-color: background-color rgb(32, 32, 32);
 }
 
-.gallery {
-  height: 200px;
-  width: 150px;
+body {
+  background-color: rgb(32, 32, 32);
 }
 
 /*# sourceMappingURL=style.css.map */
