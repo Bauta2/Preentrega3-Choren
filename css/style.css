@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: rgb(27, 27, 27);
+}
+
 p {
   font-family: "Cinzel", serif;
   color: rgb(230, 228, 228);
@@ -40,45 +44,100 @@ a {
   color: rgb(230, 228, 228);
 }
 
+li {
+  font-family: "Cinzel", serif;
+  color: rgb(230, 228, 228);
+}
+
+label {
+  font-family: "Cinzel", serif;
+  color: rgb(230, 228, 228);
+}
+
 main {
   padding-top: 1em;
 }
 
-.menu{
-  background-color: rgb(12, 12, 12);
+.menu {
+  background-color: rgb(8, 8, 8);
 }
-
 .menu a {
   color: rgb(241, 241, 238);
 }
-
-.container-logo{
-  width: 100px;
+.menu img {
   height: 100px;
+  width: 100px;
 }
 
 body {
   font-family: "Cinzel", serif;
-  background-color: rgb(32, 32, 32);
 }
 
-body {
-  background-color: rgb(32, 32, 32);
+iframe {
+  animation: from-bottom 1.5s ease;
 }
 
-footer{
-  background-color: rgb(12, 12, 12);
+.derecha {
+  animation: from-right 1.5s ease;
 }
 
-footer h4{
+@keyframes from-bottom {
+  0% {
+    opacity: 0;
+    transform: translateY(80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@keyframes from-right {
+  0% {
+    opacity: 0;
+    transform: translateX(80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+#lapng {
+  height: 100px;
+  width: 150px;
+}
+
+#cavsnewpng {
+  height: 120px;
+  width: 100px;
+}
+
+#oldcavspng {
+  height: 60px;
+  width: 110px;
+}
+
+#miamipng {
+  height: 120px;
+  width: 120px;
+}
+
+footer {
+  background-color: rgb(7, 7, 7);
+  margin-top: 3em;
+}
+footer h4 {
   font-size: 15px;
 }
-
-footer a{
+footer a {
   font-size: 12px;
 }
-
-footer li{
+footer li {
   font-size: 12px;
-  color: rgb(230, 228, 228);
+  color: rgb(241, 241, 238);
 }
+
+p {
+  font-size: 13px;
+}
+
+/*# sourceMappingURL=style.css.map */
