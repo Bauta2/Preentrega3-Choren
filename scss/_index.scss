@@ -1,4 +1,33 @@
 body{
     font-family: 'Cinzel', serif;
-    background-color: $bg-color;
+}
+
+iframe{
+    animation: from-bottom 1.5s ease;
+}
+
+.derecha{
+    animation: from-right 1.5s ease;
+}
+
+@keyframes from-bottom {
+    0% {
+        opacity: 0;
+        transform: translateY(80px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes from-right {
+    0% {
+        opacity: 0;
+        transform: translateX(80px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
 }

@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="Images/crown.png" type="image/x-icon">
+    <meta name="description" content="Trivia de la carrera de LeBron James">
+    <meta name="keywords" content="Lebron James, NBA, Basquet, Lakers, trivia, fanpage, goat, Michael Jordan">
+    <link rel="shortcut icon" href="../img/crown.png" type="image/x-icon">
     <!--font-->
     <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Fasthand&family=Lobster&family=Raleway&display=swap" rel="stylesheet">
     <!--Bootstrap-->
@@ -17,8 +19,8 @@
     <header>
         <nav class="navbar navbar-expand-lg menu">
             <div class="container-fluid">
-                <a href="#"><img src="Images/LogoCrown.gif" alt="LogoCrown" class="Container-Logo"></a>
-              <a class="navbar-brand" href="#">King James</a>
+                <a href="#"><img src="../img/LogoCrown.gif" alt="LogoCrown" class="Container-Logo"></a>
+              <a class="navbar-brand" href="../index.html">King James</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -43,9 +45,9 @@
             </div>
           </nav>
     </header> 
-    <div class="container">
+    <div class="container mt-4">
         <h1>Trivia de LeBron James</h1>
-        <div class="row">
+        <div class="row mt-4">
           <div class="col-sm-8">
             <h2>Pregunta 1</h2>
             <p>¿En qué año fue seleccionado LeBron James en el Draft de la NBA?</p>
@@ -62,7 +64,18 @@
                   2003
                 </label>
               </div>
-              <button type="submit" class="btn btn-primary">Enviar respuestas</button>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="pregunta1" id="respuesta2" value="respuesta2">
+                <label class="form-check-label" for="respuesta2">
+                  1999
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="pregunta1" id="respuesta2" value="respuesta2">
+                <label class="form-check-label" for="respuesta2">
+                  2006
+                </label>
+              </div>
             </form>
           </div>
           <div class="col-sm-4">
@@ -72,7 +85,7 @@
       </div>
 
       <div class="container">
-        <div class="row">
+        <div class="row mt-4">
           <div class="col-sm-8">
             <h2>Pregunta 2</h2>
             <p>En las finales de conferencia de 2007 Lebron lidero a su equipo en la victoria vs los Pinstons, dejando una de las mejores performances de la historia en el juego 5 y metiendo los ultimos (¿cuantos?) puntos de su equipo en el ultimo cuarto y prorróga </p>
@@ -95,7 +108,12 @@
                   22
                 </label>
               </div>
-              <button type="submit" class="btn btn-primary">Enviar respuestas</button>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="pregunta1" id="respuesta2" value="respuesta2">
+                <label class="form-check-label" for="respuesta2">
+                  12
+                </label>
+              </div>
             </form>
           </div>
           <div class="col-sm-4">
@@ -106,7 +124,7 @@
       </div>
 
       <div class="container">
-        <div class="row">
+        <div class="row mt-4">
           <div class="col-sm-8">
             <h2>Pregunta 3</h2>
             <p>¿A que jugador pasó Lebron para convertirse en el máximo anotador de la historia NBA?</p>
@@ -129,7 +147,12 @@
                   Kareem Abdul-Jabbar
                 </label>
               </div>
-              <button type="submit" class="btn btn-primary">Enviar respuestas</button>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="pregunta1" id="respuesta2" value="respuesta2">
+                <label class="form-check-label" for="respuesta2">
+                  Shaquille O´neal
+                </label>
+              </div>
             </form>
           </div>
           <div class="col-sm-4">
@@ -140,7 +163,7 @@
       </div>
 
       <div class="container">
-        <div class="row">
+        <div class="row mt-4">
           <div class="col-sm-8">
             <h2>Pregunta 4</h2>
             <p>¿Cuantas finales de NBA disputó Lebron?</p>
@@ -163,7 +186,12 @@
                   10
                 </label>
               </div>
-              <button type="submit" class="btn btn-primary">Enviar respuestas</button>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="pregunta1" id="respuesta1" value="respuesta1">
+                <label class="form-check-label" for="respuesta1">
+                  14
+                </label>
+              </div>
             </form>
           </div>
           <div class="col-sm-4">
@@ -172,14 +200,29 @@
         </div>
         </div>
       </div>
+      <div class="container">
+        <h1>Formulario de Email y Nombre</h1>
+        <form>
+          <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Ingrese su correo electrónico">
+          </div>
+          <button type="submit" class="btn btn-primary mt-2">Enviar respuestas</button>
+        </form>
+      </div>
+
       <footer>
         <div class="container">
-          <div class="row">
+          <div class="row mt-4">
             <div class="col-sm-6">
               <h4>Contacto</h4>
               <ul>
                 <li>Teléfono: 123-456-7890</li>
-                <li>Correo electrónico: info@ejemplo.com</li>
+                <li>Correo electrónico: aaaaaaaa@gmail.com</li>
               </ul>
             </div>
             <div class="col-sm-6">
